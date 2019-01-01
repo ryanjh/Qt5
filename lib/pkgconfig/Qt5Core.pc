@@ -1,0 +1,15 @@
+prefix=/home/rychu/rychu_home/workspace/mbed/mbed-os-example-blinky/Qt5
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+host_bins=${prefix}/.hostprefix/bin
+qt_config=release c++11 no-gui no-pkg-config reduce_exports static stl no-widgets doubleconversion
+
+Name: Qt5 Core
+Description: Qt Core module
+Version: 5.11.2
+Libs: -L${libdir} -lQt5Core 
+Libs.private:  -lm 
+Cflags: -DQT_CORE_LIB -I${includedir}/QtCore -I${includedir}
+

@@ -1,0 +1,16 @@
+QT.core.VERSION = 5.11.2
+QT.core.name = QtCore
+QT.core.module = Qt5Core
+QT.core.libs = $$QT_MODULE_LIB_BASE
+QT.core.includes = $$QT_MODULE_INCLUDE_BASE $$QT_MODULE_INCLUDE_BASE/QtCore
+QT.core.frameworks =
+QT.core.bins = $$QT_MODULE_BIN_BASE
+QT.core.depends =
+QT.core.uses =
+QT.core.module_config = v2 staticlib
+QT.core.CONFIG = moc resources
+QT.core.DEFINES = QT_CORE_LIB
+QT.core.enabled_features =
+QT.core.disabled_features = animation big_codecs codecs commandlineparser cxx11_future datestring filesystemiterator filesystemwatcher gestures identityproxymodel itemmodel library mimetype process processenvironment properties proxymodel statemachine qeventtransition regularexpression settings sharedmemory sortfilterproxymodel std-atomic64 stringlistmodel systemsemaphore temporaryfile textcodec textdate timezone topleveldomain translation xmlstream xmlstreamreader xmlstreamwriter
+QT_CONFIG += doubleconversion
+QT_MODULES += core
